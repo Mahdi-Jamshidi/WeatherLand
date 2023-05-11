@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- color, size, shape height of seekbar -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:centerColor="#ab59e2"
+                android:endColor="#F41252"
+                android:startColor="#3658b1" />
+            <size android:height="4dp" />
+            <corners android:radius="9dp" />
+        </shape>
+
+    </item>
+
+</layer-list>

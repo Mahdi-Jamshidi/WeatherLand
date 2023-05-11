@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="light_secondary">#993C3C43</color>
+    <color name="light_tertiary">#4D3C3C43</color>
+    <color name="light_quaternary">#2E3C3C43</color>
+    <color name="dark_secondary">#abaaba</color>
+    <color name="dark_tertiary">#4DEBEBF5</color>
+    <color name="dark_quaternary">#2EEBEBF5</color>
+    <color name="blue">#48319D</color>
+    <color name="blue_dark">#1F1D47</color>
+    <color name="purple">#C427FB</color>
+    <color name="gray">#E0D9FF</color>
+    <color name="color_less">#00FFFFFF</color>
+
+</resources>

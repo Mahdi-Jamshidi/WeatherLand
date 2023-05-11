@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView"
+    android:layout_width="66dp"
+    android:layout_height="152dp"
+    app:cardCornerRadius="30dp"
+    android:padding="12dp"
+    android:layout_marginStart="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#393072">
+
+    <RadioButton
+        android:id="@+id/radio_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checked="false"
+        android:button="@color/color_less"
+        android:background="@drawable/selector_bg_forecast" />
+
+    <TextView
+        android:id="@+id/tv_hourOrDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 AM"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/img_condition_image"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:src="@drawable/img_weather"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="106dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="19"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="°"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
